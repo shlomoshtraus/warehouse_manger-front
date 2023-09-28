@@ -1,0 +1,27 @@
+
+#linkText:active,#linkText:link,#linkText:visited,#linkText{
+  transition: color 0.2s ease-in-out;
+  color: #52b5c4;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+}
+#linkText:hover{
+  color: #23e7ff;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.app-container{
+  background-color: #474d92;
+  display: inline-flex;
+  flex-direction: column;
+  border-radius:6px;
+  border:1px solid #000000;
+  padding:10px 10px 40px 10px;
+  align-items: center;
+  box-shadow: 0 0 4px #000000;
+}

@@ -1,0 +1,92 @@
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.options {
+    font-weight: bold;
+}
+
+.TimeOutMassage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(0,0,0,0.6);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.TimeOutMassage-inner{
+    position: relative;
+    padding:32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: #ffffff;
+}
+
+.LoadingButtonsContainer {
+    display: flex;
+    flex-direction: column;
+    min-width: auto;
+    gap: 20px;
+    margin: 10px;
+    align-items: center;
+    border: 2px solid #000000;
+    padding: 15px 20px;
+    box-shadow: 0 2px 3px #000000;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.ScreensContainer {
+    min-width: 25vw;
+    width: 1050px;
+    background-color: #474d92;
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 6px;
+    border: 1px solid #000000;
+    padding: 10px 0 40px 0;
+    align-items: center;
+    box-shadow: 0 0 4px #000000;
+    gap: 10px;
+}
+
+.data-container {
+    border: 2px solid #7994e0;
+    border-radius: 6px;
+    max-width: 70%;
+    display: none;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 4px;
+    padding: 25px;
+    column-gap: 40px;
+    row-gap: 25px;
+    background-color: #5f66bd;
+
+}
+
+.nameTitleContainer {
+    margin-bottom: 5px;
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000000
+}
+.nameTitle {
+    color: #000000;
+    font-size: 3rem;
+}

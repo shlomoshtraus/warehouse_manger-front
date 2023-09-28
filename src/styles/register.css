@@ -1,0 +1,12 @@
+
+.register-input{
+    font-size: 12px;
+}
+
+.register-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 0 50px 40px;
+}

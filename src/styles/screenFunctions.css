@@ -1,0 +1,47 @@
+.message {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.error {
+    color: #81eae7;
+}
+
+.OptionsContainer {
+    display: flex;
+    gap: 10px;
+}
+
+
+.inner-data-container > img {
+    width: 160px;
+}
+
+.inner-data-container h1 {
+    font-size: 140%;
+}
+
+.inner-data-container {
+
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    border-radius: 6px;
+    width: 190px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 2px 2px #000000;
+}
+
+.clientMassage {
+    display: flex;
+    align-items: center;
+    gap:3px;
+}
+.availableMassage{
+    color: #18900a
+}
+.soldOutMassage{
+    color: #900a0a
+}
